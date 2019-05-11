@@ -7,7 +7,7 @@ import { FormUserComponent } from './form-user/form-user.component';
 
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
+import { ReunionService } from './reunion.service';
 
 
 @NgModule({
@@ -21,7 +21,9 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    ReunionService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
