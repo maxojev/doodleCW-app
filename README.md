@@ -1,5 +1,12 @@
 # DoodleCWApp
 
+* Ici nous avons développé le Front de notre projet Doodle.
+# Fonctionnalités développées 
+### Partant d'un utilisateur existant déjà en base, nous avons développé:
+* la création d'un sondage de réunion depuis un formulaire
+* la participation à un sondage de réunion
+* la création d'une réunion après résultats issus du sondage n'a pas été complètement développé 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
 ## Development server
